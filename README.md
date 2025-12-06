@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# SeeThru
+**AR accessibility tool for dyslexic readers using phone-based cardboard goggles.**
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+### 🔍 Text Recognition
+- Real-time OCR through phone camera  
+- Automatic text detection and extraction  
+- Works with books, signs, menus, and documents  
 
-   ```bash
-   npm install
-   ```
+### 📝 Dyslexic-Friendly Display
+- Automatic conversion to **OpenDyslexic** font  
+- Adjustable text size and spacing  
+- High-contrast overlay options  
 
-2. Start the app
+### 🧠 Smart Text Processing
+- Splits large text blocks into digestible chunks  
+- AI-powered summarization of long paragraphs  
+- Contextual simplification for easier reading  
 
-   ```bash
-   npx expo start
-   ```
+### 🔊 Line-by-Line Narration
+- Text-to-speech with line highlighting  
+- Adjustable reading speed  
+- Pause and resume controls  
+- Visual + audio synchronization  
 
-In the output, you'll find options to open the app in a
+### 🥽 Cardboard Integration
+- Side-by-side stereo view for Google Cardboard  
+- Gyroscope-based head tracking  
+- Hands-free reading experience  
+- Calibration for various cardboard models  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 📡 Hardware Notifications
+- Bluetooth connection to external motor  
+- Haptic feedback for alerts  
+- Notifications for new text detected  
+- Reading progress indicators  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🎛️ Customization Options
+- Font size and color preferences  
+- Reading speed adjustment  
+- Summarization intensity levels  
+- Custom motor vibration patterns  
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🧰 Tech Stack
+- **React Native (Expo)**  
+- **Google ML Kit Vision**  
+- **OpenAI API**  
+- **Expo Speech**  
+- **Expo Sensors**  
+- **Bluetooth LE**
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
