@@ -1081,7 +1081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   rearCameraPass: {fileID: 356017586}
   resultText: {fileID: 877338317}
-  openAIKey: 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
+  openAIKey: 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
 --- !u!850595691 &1347003812
 LightingSettings:
   m_ObjectHideFlags: 0

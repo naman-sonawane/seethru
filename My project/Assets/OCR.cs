@@ -9,7 +9,7 @@ public class OCR : MonoBehaviour
     public RearCameraPass rearCameraPass; // Assign in Inspector
     public TextMeshProUGUI resultText; // Assign in Inspector
     
-    [SerializeField] private string openAIKey = "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"; 
+    [SerializeField] private string openAIKey = "api-key"; 
     private string openAIUrl = "https://api.openai.com/v1/chat/completions";
 
     public void CaptureAndRecognize()

@@ -51,6 +51,7 @@ public class InputController : MonoBehaviour
         }
 
         // Activate the text object
+        Api.Recenter();
         overlay.gameObject.SetActive(true);
     }
 }
