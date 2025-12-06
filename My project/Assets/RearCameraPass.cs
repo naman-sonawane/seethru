@@ -7,6 +7,11 @@ public class RearCameraPass : MonoBehaviour
     private WebCamTexture webcamTexture;
     private Renderer quadRenderer;
 
+    public WebCamTexture GetWebCamTexture()
+    {
+        return webcamTexture;
+    }
+
     void Start()
     {
         quadRenderer = GetComponent<Renderer>();

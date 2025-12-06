@@ -7,6 +7,26 @@
 
 
 
+extern void FirebaseReader_Start_m61E1C2AAE88E0F9CC29E6151645C98835F00E1B6 (void);
+extern void FirebaseReader_PollFirebase_m7346B95E78270969085D5D8570EBBD1610E343A6 (void);
+extern void FirebaseReader_GetFirebaseData_m9839AA36177DC86B0D0A8D40C6CC399B9C3E67E5 (void);
+extern void FirebaseReader__ctor_m5704564D704974D4126F72A8A17FAC793A504D1F (void);
+extern void U3CGetFirebaseDataU3Ed__5__ctor_mF4BC9D542BDD9CC1DD4B3532F614D618DC36A807 (void);
+extern void U3CGetFirebaseDataU3Ed__5_System_IDisposable_Dispose_mEB0CAB35CA4007E248DC0D4A0A35FD5F74E5E9B1 (void);
+extern void U3CGetFirebaseDataU3Ed__5_MoveNext_m41AC1EA7BFBBEF2BCD88DDB7BBF5076DA0ED38EB (void);
+extern void U3CGetFirebaseDataU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1E3C99725AB43043D100A02936E5D6C7A30FDC78 (void);
+extern void U3CGetFirebaseDataU3Ed__5_System_Collections_IEnumerator_Reset_m54DC01FDADED828ACCE8C343B8985FBADC09A7CC (void);
+extern void U3CGetFirebaseDataU3Ed__5_System_Collections_IEnumerator_get_Current_mA81C52406D8BD183D3A66E08807902338239CBB6 (void);
+extern void U3CPollFirebaseU3Ed__4__ctor_m8DD6ED8F417E1726FAA58F86DEED0A1D3636D725 (void);
+extern void U3CPollFirebaseU3Ed__4_System_IDisposable_Dispose_m1E33BE71AA7ADF3FDB64FC4D197D68A7C428EF5A (void);
+extern void U3CPollFirebaseU3Ed__4_MoveNext_mDABBF455DFDA06653F5D72BBE94612D74DC18E45 (void);
+extern void U3CPollFirebaseU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA32056071E2731ADE43655348B02FAE4E83564E6 (void);
+extern void U3CPollFirebaseU3Ed__4_System_Collections_IEnumerator_Reset_mF11949E017CBDC0F33E21463AA0A78D0D7ECB6EB (void);
+extern void U3CPollFirebaseU3Ed__4_System_Collections_IEnumerator_get_Current_m8BD0301E323F35E9F60260D187C666E69198ADA5 (void);
+extern void InputController_Start_mC887BF47D15F6F54A07FCE6717EBB85DFBDEE479 (void);
+extern void InputController_Update_mE06250661752A777E36B045F124B6E47E9209BD2 (void);
+extern void InputController_OnScreenPressed_mF70D7C5CE7BD47E0924939C61988DBE59D2AFE08 (void);
+extern void InputController__ctor_m0EDBE66635C62BD8D770DC8E9C8D90BECD52A00D (void);
 extern void RearCameraPass_Start_mA28805D86D58678EEBCCD01E5DB12A6989A3F2D8 (void);
 extern void RearCameraPass_WaitForPermission_m33F60A233C458C970B6638657C293E0025752237 (void);
 extern void RearCameraPass_InitializeCamera_m03EA7D4FF6ABA0B1EF11512595431D44128532F3 (void);
@@ -22,8 +42,28 @@ extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[15] = 
+static Il2CppMethodPointer s_methodPointers[35] = 
 {
+	FirebaseReader_Start_m61E1C2AAE88E0F9CC29E6151645C98835F00E1B6,
+	FirebaseReader_PollFirebase_m7346B95E78270969085D5D8570EBBD1610E343A6,
+	FirebaseReader_GetFirebaseData_m9839AA36177DC86B0D0A8D40C6CC399B9C3E67E5,
+	FirebaseReader__ctor_m5704564D704974D4126F72A8A17FAC793A504D1F,
+	U3CGetFirebaseDataU3Ed__5__ctor_mF4BC9D542BDD9CC1DD4B3532F614D618DC36A807,
+	U3CGetFirebaseDataU3Ed__5_System_IDisposable_Dispose_mEB0CAB35CA4007E248DC0D4A0A35FD5F74E5E9B1,
+	U3CGetFirebaseDataU3Ed__5_MoveNext_m41AC1EA7BFBBEF2BCD88DDB7BBF5076DA0ED38EB,
+	U3CGetFirebaseDataU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1E3C99725AB43043D100A02936E5D6C7A30FDC78,
+	U3CGetFirebaseDataU3Ed__5_System_Collections_IEnumerator_Reset_m54DC01FDADED828ACCE8C343B8985FBADC09A7CC,
+	U3CGetFirebaseDataU3Ed__5_System_Collections_IEnumerator_get_Current_mA81C52406D8BD183D3A66E08807902338239CBB6,
+	U3CPollFirebaseU3Ed__4__ctor_m8DD6ED8F417E1726FAA58F86DEED0A1D3636D725,
+	U3CPollFirebaseU3Ed__4_System_IDisposable_Dispose_m1E33BE71AA7ADF3FDB64FC4D197D68A7C428EF5A,
+	U3CPollFirebaseU3Ed__4_MoveNext_mDABBF455DFDA06653F5D72BBE94612D74DC18E45,
+	U3CPollFirebaseU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA32056071E2731ADE43655348B02FAE4E83564E6,
+	U3CPollFirebaseU3Ed__4_System_Collections_IEnumerator_Reset_mF11949E017CBDC0F33E21463AA0A78D0D7ECB6EB,
+	U3CPollFirebaseU3Ed__4_System_Collections_IEnumerator_get_Current_m8BD0301E323F35E9F60260D187C666E69198ADA5,
+	InputController_Start_mC887BF47D15F6F54A07FCE6717EBB85DFBDEE479,
+	InputController_Update_mE06250661752A777E36B045F124B6E47E9209BD2,
+	InputController_OnScreenPressed_mF70D7C5CE7BD47E0924939C61988DBE59D2AFE08,
+	InputController__ctor_m0EDBE66635C62BD8D770DC8E9C8D90BECD52A00D,
 	RearCameraPass_Start_mA28805D86D58678EEBCCD01E5DB12A6989A3F2D8,
 	RearCameraPass_WaitForPermission_m33F60A233C458C970B6638657C293E0025752237,
 	RearCameraPass_InitializeCamera_m03EA7D4FF6ABA0B1EF11512595431D44128532F3,
@@ -40,29 +80,49 @@ static Il2CppMethodPointer s_methodPointers[15] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[15] = 
+static const int32_t s_InvokerIndices[35] = 
 {
-	12646,
-	12468,
-	12646,
-	12646,
-	12646,
-	9534,
-	12646,
-	12300,
-	12468,
-	12646,
-	12468,
-	12646,
-	12646,
-	22126,
-	12646,
+	13017,
+	12828,
+	12828,
+	13017,
+	9812,
+	13017,
+	12647,
+	12828,
+	13017,
+	12828,
+	9812,
+	13017,
+	12647,
+	12828,
+	13017,
+	12828,
+	13017,
+	13017,
+	13017,
+	13017,
+	13017,
+	12828,
+	13017,
+	13017,
+	13017,
+	9812,
+	13017,
+	12647,
+	12828,
+	13017,
+	12828,
+	13017,
+	13017,
+	22549,
+	13017,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	15,
+	35,
 	s_methodPointers,
 	0,
 	NULL,

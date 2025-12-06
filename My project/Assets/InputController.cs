@@ -1,25 +1,56 @@
 using UnityEngine;
+using TMPro;
+using Google.XR.Cardboard;
+using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class InputController : MonoBehaviour
 {
+    public GameObject overlay; // Assign in Inspector
+    private int counter = 0;
+    private bool pressed = false;
+
+    void Start() {
+        overlay.gameObject.SetActive(false);
+    }
+
     void Update()
     {
-        // Detect touch input for mobile
-        if (Input.touchCount > 0)
+        bool isTriggered = false;
+
+        // Check Cardboard Trigger
+        if (Api.IsTriggerPressed) isTriggered = true;
+
+        // Check Mouse (Editor)
+        if (Mouse.current != null && Mouse.current.leftButton.isPressed) isTriggered = true;
+
+        // Check Touch (Mobile)
+        if (Input.touchCount > 0) isTriggered = true;
+
+        if (isTriggered && !pressed)
         {
-            Touch touch = Input.GetTouch(0);
-            
-            if (touch.phase == TouchPhase.Began)
-            {
-                Debug.Log("Screen pressed at: " + touch.position);
-                OnScreenPressed();
-            }
+            OnScreenPressed();
+            pressed = true;
+        }
+        else if (!isTriggered)
+        {
+            pressed = false;
         }
     }
 
     void OnScreenPressed()
     {
+        counter++;
         // Handle screen press logic here
         Debug.Log("Screen press detected!");
+
+        OCR ocr = GetComponent<OCR>();
+        if (ocr != null)
+        {
+            ocr.CaptureAndRecognize();
+        }
+
+        // Activate the text object
+        overlay.gameObject.SetActive(true);
     }
 }
