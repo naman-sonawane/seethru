@@ -1,0 +1,81 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void RearCameraPass_Start_mA28805D86D58678EEBCCD01E5DB12A6989A3F2D8 (void);
+extern void RearCameraPass_WaitForPermission_m33F60A233C458C970B6638657C293E0025752237 (void);
+extern void RearCameraPass_InitializeCamera_m03EA7D4FF6ABA0B1EF11512595431D44128532F3 (void);
+extern void RearCameraPass_Update_m4285339597B22BBE76BCC781E70EDCAB2E49FB2A (void);
+extern void RearCameraPass__ctor_m048A917B3AC492E5EA2010EBC82756D11E5BD8FB (void);
+extern void U3CWaitForPermissionU3Ed__3__ctor_m9AEA483FDA2950592DEB3996A17E78EC06A837FF (void);
+extern void U3CWaitForPermissionU3Ed__3_System_IDisposable_Dispose_m6CCA5D05FE20DF627D1228553D46C49516ED441F (void);
+extern void U3CWaitForPermissionU3Ed__3_MoveNext_m54CB8F4058DF87A30395E07896ECA410C4345CB2 (void);
+extern void U3CWaitForPermissionU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3AFBF404B1336DCA8D8263DE6E12C93B2F905044 (void);
+extern void U3CWaitForPermissionU3Ed__3_System_Collections_IEnumerator_Reset_mD549D6390EF08052B3DD6909822324170751F23D (void);
+extern void U3CWaitForPermissionU3Ed__3_System_Collections_IEnumerator_get_Current_m79A3F52886424C62B36E38EC5735CA00C871C145 (void);
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[15] = 
+{
+	RearCameraPass_Start_mA28805D86D58678EEBCCD01E5DB12A6989A3F2D8,
+	RearCameraPass_WaitForPermission_m33F60A233C458C970B6638657C293E0025752237,
+	RearCameraPass_InitializeCamera_m03EA7D4FF6ABA0B1EF11512595431D44128532F3,
+	RearCameraPass_Update_m4285339597B22BBE76BCC781E70EDCAB2E49FB2A,
+	RearCameraPass__ctor_m048A917B3AC492E5EA2010EBC82756D11E5BD8FB,
+	U3CWaitForPermissionU3Ed__3__ctor_m9AEA483FDA2950592DEB3996A17E78EC06A837FF,
+	U3CWaitForPermissionU3Ed__3_System_IDisposable_Dispose_m6CCA5D05FE20DF627D1228553D46C49516ED441F,
+	U3CWaitForPermissionU3Ed__3_MoveNext_m54CB8F4058DF87A30395E07896ECA410C4345CB2,
+	U3CWaitForPermissionU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3AFBF404B1336DCA8D8263DE6E12C93B2F905044,
+	U3CWaitForPermissionU3Ed__3_System_Collections_IEnumerator_Reset_mD549D6390EF08052B3DD6909822324170751F23D,
+	U3CWaitForPermissionU3Ed__3_System_Collections_IEnumerator_get_Current_m79A3F52886424C62B36E38EC5735CA00C871C145,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[15] = 
+{
+	12646,
+	12468,
+	12646,
+	12646,
+	12646,
+	9534,
+	12646,
+	12300,
+	12468,
+	12646,
+	12468,
+	12646,
+	12646,
+	22126,
+	12646,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	15,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
